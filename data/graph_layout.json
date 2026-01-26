@@ -2,15 +2,15 @@
   "positions": {
     "issue-1": [
       0,
-      -80
+      80
     ],
     "issue-2": [
       0,
-      0
+      -80
     ],
     "issue-3": [
       0,
-      80
+      0
     ]
   },
   "metrics": {
@@ -38,7 +38,7 @@
   },
   "links": null,
   "version": "1.0.0",
-  "generated_at": "2026-01-10T22:50:49Z",
+  "generated_at": "2026-01-25T11:06:01Z",
   "node_count": 3,
   "edge_count": 0
 }

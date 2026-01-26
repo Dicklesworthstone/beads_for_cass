@@ -11,22 +11,26 @@
 The graph analysis identified these as the highest-impact items to work on:
 
 ### 1. Test Issue 1
-**ID:** `issue-1` | **Impact Score:** 0.15
+**ID:** `issue-1` | **Impact Score:** 0.30
 
 **Why this matters:**
+- 📊 High centrality in dependency graph (PageRank: 100%)
+- ⚡ Low effort, high impact - good starting point
 - ✅ Currently unclaimed - available for work
 - 🚨 High priority (P1) - prioritize this work
 
 ### 2. Test Issue 2
-**ID:** `issue-2` | **Impact Score:** 0.13
+**ID:** `issue-2` | **Impact Score:** 0.28
 
 **Why this matters:**
+- 📊 High centrality in dependency graph (PageRank: 100%)
 - ✅ Currently unclaimed - available for work
 
 ### 3. Test Issue 3
-**ID:** `issue-3` | **Impact Score:** 0.09
+**ID:** `issue-3` | **Impact Score:** 0.22
 
 **Why this matters:**
+- 📊 High centrality in dependency graph (PageRank: 100%)
 - 🚧 In progress - already being worked
 
 ## 📈 Graph Analysis
@@ -53,6 +57,6 @@ Low-effort items that clear the path forward:
 
 ---
 
-*Generated Jan 10, 2026 at 5:50 PM EST by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
+*Generated Jan 25, 2026 at 6:06 AM EST by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 
 **[Open Interactive Dashboard](https://Dicklesworthstone.github.io/beads_for_cass/)** for full details, dependency graph, search, and time-travel.

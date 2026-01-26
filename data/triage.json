@@ -1,8 +1,8 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-01-10T17:50:49.852153676-05:00",
-    "phase2_ready": false,
+    "generated_at": "2026-01-25T06:06:00.571577712-05:00",
+    "phase2_ready": true,
     "issue_count": 3,
     "compute_time_ms": 0
   },
@@ -15,8 +15,10 @@
       {
         "id": "issue-1",
         "title": "Test Issue 1",
-        "score": 0.15151250000000002,
+        "score": 0.30196249999999997,
         "reasons": [
+          "📊 High centrality in dependency graph (PageRank: 100%)",
+          "⚡ Low effort, high impact - good starting point",
           "✅ Currently unclaimed - available for work",
           "🚨 High priority (P1) - prioritize this work"
         ],
@@ -25,8 +27,9 @@
       {
         "id": "issue-2",
         "title": "Test Issue 2",
-        "score": 0.1302625,
+        "score": 0.2807125,
         "reasons": [
+          "📊 High centrality in dependency graph (PageRank: 100%)",
           "✅ Currently unclaimed - available for work"
         ],
         "unblocks": 0
@@ -34,8 +37,9 @@
       {
         "id": "issue-3",
         "title": "Test Issue 3",
-        "score": 0.09257500000000002,
+        "score": 0.216475,
         "reasons": [
+          "📊 High centrality in dependency graph (PageRank: 100%)",
           "🚧 In progress - already being worked"
         ],
         "unblocks": 0
@@ -50,26 +54,25 @@
       "status": "open",
       "priority": 1,
       "labels": null,
-      "score": 0.15151250000000002,
+      "score": 0.30196249999999997,
       "breakdown": {
-        "pagerank": 0,
+        "pagerank": 0.22,
         "betweenness": 0,
         "blocker_ratio": 0,
         "staleness": 0.025,
         "priority_boost": 0.07500000000000001,
-        "time_to_impact": 0.026250000000000002,
-        "urgency": 0.05,
+        "time_to_impact": 0.03325,
+        "urgency": 0,
         "risk": 0.0020000000000000005,
-        "pagerank_norm": 0,
+        "pagerank_norm": 1,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
         "staleness_norm": 0.5,
         "priority_boost_norm": 0.75,
-        "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.5,
+        "time_to_impact_norm": 0.3325,
+        "urgency_norm": 0,
         "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, median estimate 60m",
-        "urgency_explanation": "aging (106752 days)",
+        "time_to_impact_explanation": "On dependency chain (depth 1), median estimate 60m",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
           "fan_variance": 0,
@@ -80,8 +83,10 @@
           "explanation": "Low risk - stable dependency structure"
         }
       },
-      "action": "Start work on this issue",
+      "action": "Quick win - start here for fast progress",
       "reasons": [
+        "📊 High centrality in dependency graph (PageRank: 100%)",
+        "⚡ Low effort, high impact - good starting point",
         "✅ Currently unclaimed - available for work",
         "🚨 High priority (P1) - prioritize this work"
       ]
@@ -93,26 +98,25 @@
       "status": "open",
       "priority": 2,
       "labels": null,
-      "score": 0.1302625,
+      "score": 0.2807125,
       "breakdown": {
-        "pagerank": 0,
+        "pagerank": 0.22,
         "betweenness": 0,
         "blocker_ratio": 0,
         "staleness": 0.025,
         "priority_boost": 0.05,
-        "time_to_impact": 0.026250000000000002,
-        "urgency": 0.05,
+        "time_to_impact": 0.03325,
+        "urgency": 0,
         "risk": 0.0020000000000000005,
-        "pagerank_norm": 0,
+        "pagerank_norm": 1,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
         "staleness_norm": 0.5,
         "priority_boost_norm": 0.5,
-        "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.5,
+        "time_to_impact_norm": 0.3325,
+        "urgency_norm": 0,
         "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, median estimate 60m",
-        "urgency_explanation": "aging (106752 days)",
+        "time_to_impact_explanation": "On dependency chain (depth 1), median estimate 60m",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
           "fan_variance": 0,
@@ -125,6 +129,7 @@
       },
       "action": "Start work on this issue",
       "reasons": [
+        "📊 High centrality in dependency graph (PageRank: 100%)",
         "✅ Currently unclaimed - available for work"
       ]
     },
@@ -135,26 +140,25 @@
       "status": "in_progress",
       "priority": 3,
       "labels": null,
-      "score": 0.09257500000000002,
+      "score": 0.216475,
       "breakdown": {
-        "pagerank": 0,
+        "pagerank": 0.22,
         "betweenness": 0,
         "blocker_ratio": 0,
         "staleness": 0.025,
         "priority_boost": 0.025,
-        "time_to_impact": 0.026250000000000002,
-        "urgency": 0.05,
+        "time_to_impact": 0.03325,
+        "urgency": 0,
         "risk": 0.006,
-        "pagerank_norm": 0,
+        "pagerank_norm": 1,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
         "staleness_norm": 0.5,
         "priority_boost_norm": 0.25,
-        "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.5,
+        "time_to_impact_norm": 0.3325,
+        "urgency_norm": 0,
         "risk_norm": 0.06,
-        "time_to_impact_explanation": "Leaf node, median estimate 60m",
-        "urgency_explanation": "aging (106752 days)",
+        "time_to_impact_explanation": "On dependency chain (depth 1), median estimate 60m",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
           "fan_variance": 0,
@@ -167,6 +171,7 @@
       },
       "action": "Continue work on this issue",
       "reasons": [
+        "📊 High centrality in dependency graph (PageRank: 100%)",
         "🚧 In progress - already being worked"
       ]
     }
@@ -217,13 +222,21 @@
       "edge_count": 0,
       "density": 0,
       "has_cycles": false,
-      "phase2_ready": false
+      "phase2_ready": true
     },
     "velocity": {
       "closed_last_7_days": 0,
       "closed_last_30_days": 0,
       "avg_days_to_close": 0,
       "weekly": [
+        {
+          "week_start": "2026-01-19T00:00:00Z",
+          "closed": 0
+        },
+        {
+          "week_start": "2026-01-12T00:00:00Z",
+          "closed": 0
+        },
         {
           "week_start": "2026-01-05T00:00:00Z",
           "closed": 0
@@ -247,23 +260,15 @@
         {
           "week_start": "2025-12-01T00:00:00Z",
           "closed": 0
-        },
-        {
-          "week_start": "2025-11-24T00:00:00Z",
-          "closed": 0
-        },
-        {
-          "week_start": "2025-11-17T00:00:00Z",
-          "closed": 0
         }
       ]
     }
   },
   "commands": {
-    "claim_top": "bd update issue-1 --status=in_progress",
-    "show_top": "bd show issue-1",
-    "list_ready": "bd ready",
-    "list_blocked": "bd blocked",
+    "claim_top": "CI=1 bd update issue-1 --status in_progress --json",
+    "show_top": "CI=1 bd show issue-1 --json",
+    "list_ready": "CI=1 bd ready --json",
+    "list_blocked": "CI=1 bd blocked --json",
     "refresh_triage": "bv --robot-triage"
   }
 }

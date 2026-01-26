@@ -23,13 +23,21 @@
     "edge_count": 0,
     "density": 0,
     "has_cycles": false,
-    "phase2_ready": false
+    "phase2_ready": true
   },
   "velocity": {
     "closed_last_7_days": 0,
     "closed_last_30_days": 0,
     "avg_days_to_close": 0,
     "weekly": [
+      {
+        "week_start": "2026-01-19T00:00:00Z",
+        "closed": 0
+      },
+      {
+        "week_start": "2026-01-12T00:00:00Z",
+        "closed": 0
+      },
       {
         "week_start": "2026-01-05T00:00:00Z",
         "closed": 0
@@ -52,14 +60,6 @@
       },
       {
         "week_start": "2025-12-01T00:00:00Z",
-        "closed": 0
-      },
-      {
-        "week_start": "2025-11-24T00:00:00Z",
-        "closed": 0
-      },
-      {
-        "week_start": "2025-11-17T00:00:00Z",
         "closed": 0
       }
     ]
